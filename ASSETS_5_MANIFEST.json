@@ -1,0 +1,33 @@
+{
+  "review_sha256": "0ef11d62a4f7478fb19aa7f9ddb392be31e6f6e08617846d8450f28955124b9e",
+  "image_id": "sha256:2d3fe158916e194764d50588fab202bc344336c365ad44bc6d2457b574263cee",
+  "assets": [
+    {
+      "filename": "debian-corresponding-sources.tar",
+      "size": 350760960,
+      "sha256": "f790c9cbc62f40289e0c90d1c696c104740c467f4475040aa3d4eaeccc37ca11"
+    },
+    {
+      "filename": "python-corresponding-sources.tar",
+      "size": 41523200,
+      "sha256": "8a1c4291ba9423c2b925562a3dc8334840d2269ff5e5173f5db7038a6d9c5088"
+    },
+    {
+      "filename": "licenses-and-evidence.tar.gz",
+      "size": 975405,
+      "sha256": "8e6434a6646aa3d406cb51298e0c7ffc594c34be43acbfef172f6dbb09681abc"
+    },
+    {
+      "filename": "SHA256SUMS",
+      "size": 293,
+      "sha256": "5248d22f9c677e00e34dfd81ca1045af76ddc28d82f8bfc5b1de6a9a1fb5be45"
+    },
+    {
+      "filename": "README.md",
+      "size": 6157,
+      "sha256": "94c3f1d9ec1117722e620b711703920f6e57e84586b45c31f6457acc0b397234"
+    }
+  ],
+  "content_origin": "Exact public upstream archives and unchanged license notices; generic reviewed Dockerfile; hash-only adjudication and inventories. No EC application files, business data or owner authentication data. Public upstream test vectors are intentionally preserved.",
+  "status": "ALL_FIVE_LOCAL_HASHES_AND_CONTENT_ORIGINS_CONFIRMED"
+}

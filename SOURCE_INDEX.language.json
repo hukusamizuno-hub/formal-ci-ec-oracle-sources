@@ -1,0 +1,589 @@
+{
+  "schema": "formal-ci-language-corresponding-sources/1",
+  "image_id": "sha256:2d3fe158916e194764d50588fab202bc344336c365ad44bc6d2457b574263cee",
+  "sources": [
+    {
+      "name": "CPython",
+      "version": "3.12.15",
+      "complete": true,
+      "url": "https://www.python.org/ftp/python/3.12.15/Python-3.12.15.tar.xz",
+      "sha256": "c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a",
+      "size": 20829824,
+      "path": "language-sources/cpython/3.12.15/Python-3.12.15.tar.xz",
+      "hash_provenance": "image PYTHON_SHA256"
+    },
+    {
+      "name": "CacheControl",
+      "version": "0.14.1",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/d2/23/db12e0b6b241e33f77f7cce01a06b4cc6f8071728656cc0ea262d2a14dad/cachecontrol-0.14.1.tar.gz",
+      "sha256": "06ef916a1e4eb7dba9948cdfc9c76e749db2e02104a9a1277e8b642591a0f717",
+      "size": 28928,
+      "path": "language-sources/CacheControl/0.14.1/cachecontrol-0.14.1.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "cachecontrol-0.14.1/LICENSE.txt",
+          "path": "notices/language-source/CacheControl/0.14.1/86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+          "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+          "size": 558
+        }
+      ]
+    },
+    {
+      "name": "certifi",
+      "version": "2024.8.30",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/b0/ee/9b19140fe824b367c04c5e1b369942dd754c4c5462d5674002f75c4dedc1/certifi-2024.8.30.tar.gz",
+      "sha256": "bec941d2aa8195e248a60b31ff9f0558284cf01a52591ceda73ea9afffd69fd9",
+      "size": 168507,
+      "path": "language-sources/certifi/2024.8.30/certifi-2024.8.30.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "certifi-2024.8.30/LICENSE",
+          "path": "notices/language-source/certifi/2024.8.30/e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+          "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+          "size": 989
+        }
+      ]
+    },
+    {
+      "name": "distlib",
+      "version": "0.3.9",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/0d/dd/1bec4c5ddb504ca60fc29472f3d27e8d4da1257a854e1d96742f15c1d02d/distlib-0.3.9.tar.gz",
+      "sha256": "a60f20dea646b8a33f3e7772f74dc0b2d0772d2837ee1342a00645c81edf9403",
+      "size": 613923,
+      "path": "language-sources/distlib/0.3.9/distlib-0.3.9.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "distlib-0.3.9/tests/testsrc/LICENSE",
+          "path": "notices/language-source/distlib/0.3.9/e8562d2559d7c193f030620d061ecd92cfddc18e2823df0944a69a4359fedde4",
+          "sha256": "e8562d2559d7c193f030620d061ecd92cfddc18e2823df0944a69a4359fedde4",
+          "size": 14
+        },
+        {
+          "source_archive_member": "distlib-0.3.9/tests/testdist-0.1/LICENSE",
+          "path": "notices/language-source/distlib/0.3.9/3a0a3ea81fe0b379e877e8bfbd0ea78d08d2e9552282422bc39440fcb0a64a4f",
+          "sha256": "3a0a3ea81fe0b379e877e8bfbd0ea78d08d2e9552282422bc39440fcb0a64a4f",
+          "size": 950
+        },
+        {
+          "source_archive_member": "distlib-0.3.9/tests/test_testdist-0.1/LICENSE",
+          "path": "notices/language-source/distlib/0.3.9/3a0a3ea81fe0b379e877e8bfbd0ea78d08d2e9552282422bc39440fcb0a64a4f",
+          "sha256": "3a0a3ea81fe0b379e877e8bfbd0ea78d08d2e9552282422bc39440fcb0a64a4f",
+          "size": 950
+        },
+        {
+          "source_archive_member": "distlib-0.3.9/tests/minimext/LICENSE",
+          "path": "notices/language-source/distlib/0.3.9/e8562d2559d7c193f030620d061ecd92cfddc18e2823df0944a69a4359fedde4",
+          "sha256": "e8562d2559d7c193f030620d061ecd92cfddc18e2823df0944a69a4359fedde4",
+          "size": 14
+        },
+        {
+          "source_archive_member": "distlib-0.3.9/LICENSE.txt",
+          "path": "notices/language-source/distlib/0.3.9/808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d",
+          "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d",
+          "size": 14531
+        }
+      ]
+    },
+    {
+      "name": "distro",
+      "version": "1.9.0",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/fc/f8/98eea607f65de6527f8a2e8885fc8015d3e6f5775df186e443e0964a11c3/distro-1.9.0.tar.gz",
+      "sha256": "2fa77c6fd8940f116ee1d6b94a2f90b13b5ea8d019b98bc8bafdcabcdd9bdbed",
+      "size": 60722,
+      "path": "language-sources/distro/1.9.0/distro-1.9.0.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "distro-1.9.0/LICENSE",
+          "path": "notices/language-source/distro/1.9.0/cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+          "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+          "size": 11325
+        }
+      ]
+    },
+    {
+      "name": "idna",
+      "version": "3.10",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz",
+      "sha256": "12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9",
+      "size": 190490,
+      "path": "language-sources/idna/3.10/idna-3.10.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "idna-3.10/LICENSE.md",
+          "path": "notices/language-source/idna/3.10/a59f0b0ef3635874109a4461ca44ff7a70d50696e814767bfaf721d4c9b0db0f",
+          "sha256": "a59f0b0ef3635874109a4461ca44ff7a70d50696e814767bfaf721d4c9b0db0f",
+          "size": 1541
+        }
+      ]
+    },
+    {
+      "name": "msgpack",
+      "version": "1.1.0",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/cb/d0/7555686ae7ff5731205df1012ede15dd9d927f6227ea151e901c7406af4f/msgpack-1.1.0.tar.gz",
+      "sha256": "dd432ccc2c72b914e4cb77afce64aab761c1137cc698be3984eee260bcb2896e",
+      "size": 167260,
+      "path": "language-sources/msgpack/1.1.0/msgpack-1.1.0.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "msgpack-1.1.0/COPYING",
+          "path": "notices/language-source/msgpack/1.1.0/492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427",
+          "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427",
+          "size": 614
+        }
+      ]
+    },
+    {
+      "name": "packaging",
+      "version": "24.2",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/d0/63/68dbb6eb2de9cb10ee4c9c14a0148804425e13c4fb20d61cce69f53106da/packaging-24.2.tar.gz",
+      "sha256": "c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f",
+      "size": 163950,
+      "path": "language-sources/packaging/24.2/packaging-24.2.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "packaging-24.2/LICENSE",
+          "path": "notices/language-source/packaging/24.2/cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+          "size": 197
+        },
+        {
+          "source_archive_member": "packaging-24.2/LICENSE.APACHE",
+          "path": "notices/language-source/packaging/24.2/0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "size": 10174
+        },
+        {
+          "source_archive_member": "packaging-24.2/LICENSE.BSD",
+          "path": "notices/language-source/packaging/24.2/b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+          "size": 1344
+        }
+      ]
+    },
+    {
+      "name": "pip",
+      "version": "25.0.1",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/70/53/b309b4a497b09655cb7e07088966881a57d082f48ac3cb54ea729fd2c6cf/pip-25.0.1.tar.gz",
+      "sha256": "88f96547ea48b940a3a385494e181e29fb8637898f88d88737c5049780f196ea",
+      "size": 1950850,
+      "path": "language-sources/pip/25.0.1/pip-25.0.1.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "wheel_sha256": "c46efd13b6aa8279f33f2864459c8ce587ea6a1a59ee20de055868d8f7688f7f",
+      "exact_image_pip_metadata_match": true,
+      "exact_image_vendor_inventory_match": true,
+      "wheel_notice_files": [
+        "pip-25.0.1.dist-info/AUTHORS.txt",
+        "pip-25.0.1.dist-info/LICENSE.txt"
+      ],
+      "source_notice_files": [
+        {
+          "source_archive_member": "pip-25.0.1/AUTHORS.txt",
+          "path": "notices/language-source/pip/25.0.1/1eace90552df4f5941b61a907e20e555e16483ae6127b650bef5a1a2af8102c0",
+          "sha256": "1eace90552df4f5941b61a907e20e555e16483ae6127b650bef5a1a2af8102c0",
+          "size": 11018
+        },
+        {
+          "source_archive_member": "pip-25.0.1/LICENSE.txt",
+          "path": "notices/language-source/pip/25.0.1/634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104",
+          "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104",
+          "size": 1093
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/cachecontrol/LICENSE.txt",
+          "path": "notices/language-source/pip/25.0.1/86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+          "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+          "size": 558
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/certifi/LICENSE",
+          "path": "notices/language-source/pip/25.0.1/e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+          "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+          "size": 989
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/distlib/LICENSE.txt",
+          "path": "notices/language-source/pip/25.0.1/808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d",
+          "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d",
+          "size": 14531
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/distro/LICENSE",
+          "path": "notices/language-source/pip/25.0.1/cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+          "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+          "size": 11325
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/idna/LICENSE.md",
+          "path": "notices/language-source/pip/25.0.1/a59f0b0ef3635874109a4461ca44ff7a70d50696e814767bfaf721d4c9b0db0f",
+          "sha256": "a59f0b0ef3635874109a4461ca44ff7a70d50696e814767bfaf721d4c9b0db0f",
+          "size": 1541
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/msgpack/COPYING",
+          "path": "notices/language-source/pip/25.0.1/492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427",
+          "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427",
+          "size": 614
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/packaging/LICENSE",
+          "path": "notices/language-source/pip/25.0.1/cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+          "size": 197
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/packaging/LICENSE.APACHE",
+          "path": "notices/language-source/pip/25.0.1/0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "size": 10174
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/packaging/LICENSE.BSD",
+          "path": "notices/language-source/pip/25.0.1/b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+          "size": 1344
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/pkg_resources/LICENSE",
+          "path": "notices/language-source/pip/25.0.1/86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+          "size": 1023
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/platformdirs/LICENSE",
+          "path": "notices/language-source/pip/25.0.1/29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+          "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+          "size": 1089
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/pygments/LICENSE",
+          "path": "notices/language-source/pip/25.0.1/a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+          "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+          "size": 1331
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/pyproject_hooks/LICENSE",
+          "path": "notices/language-source/pip/25.0.1/1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+          "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+          "size": 1081
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/requests/LICENSE",
+          "path": "notices/language-source/pip/25.0.1/09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+          "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+          "size": 10142
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/resolvelib/LICENSE",
+          "path": "notices/language-source/pip/25.0.1/f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+          "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+          "size": 751
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/rich/LICENSE",
+          "path": "notices/language-source/pip/25.0.1/deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+          "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+          "size": 1056
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/tomli/LICENSE",
+          "path": "notices/language-source/pip/25.0.1/b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+          "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+          "size": 1072
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/tomli/LICENSE-HEADER",
+          "path": "notices/language-source/pip/25.0.1/97ce9330905a172dde870ee0361d89beb95ba3bd0f4545796aa91a8c01a43531",
+          "sha256": "97ce9330905a172dde870ee0361d89beb95ba3bd0f4545796aa91a8c01a43531",
+          "size": 121
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/truststore/LICENSE",
+          "path": "notices/language-source/pip/25.0.1/33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca",
+          "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca",
+          "size": 1086
+        },
+        {
+          "source_archive_member": "pip-25.0.1/src/pip/_vendor/urllib3/LICENSE.txt",
+          "path": "notices/language-source/pip/25.0.1/c37bf186e27cf9dbe9619e55edfe3cea7b30091ceb3da63c7dacbe0e6d77907b",
+          "sha256": "c37bf186e27cf9dbe9619e55edfe3cea7b30091ceb3da63c7dacbe0e6d77907b",
+          "size": 1115
+        }
+      ]
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.3.6",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/13/fc/128cc9cb8f03208bdbf93d3aa862e16d376844a14f9a0ce5cf4507372de4/platformdirs-4.3.6.tar.gz",
+      "sha256": "357fb2acbc885b0419afd3ce3ed34564c13c9b95c89360cd9563f73aa5e2b907",
+      "size": 21302,
+      "path": "language-sources/platformdirs/4.3.6/platformdirs-4.3.6.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "platformdirs-4.3.6/LICENSE",
+          "path": "notices/language-source/platformdirs/4.3.6/29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+          "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+          "size": 1089
+        }
+      ]
+    },
+    {
+      "name": "pygments",
+      "version": "2.18.0",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/8e/62/8336eff65bcbc8e4cb5d05b55faf041285951b6e80f33e2bff2024788f31/pygments-2.18.0.tar.gz",
+      "sha256": "786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199",
+      "size": 4891905,
+      "path": "language-sources/pygments/2.18.0/pygments-2.18.0.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "pygments-2.18.0/doc/docs/authors.rst",
+          "path": "notices/language-source/pygments/2.18.0/d86fefcc8ff00f1a7d9205849f993ba26d17cb9ad91ecf6325ddaecfd4bb87be",
+          "sha256": "d86fefcc8ff00f1a7d9205849f993ba26d17cb9ad91ecf6325ddaecfd4bb87be",
+          "size": 72
+        },
+        {
+          "source_archive_member": "pygments-2.18.0/AUTHORS",
+          "path": "notices/language-source/pygments/2.18.0/444102887ca434ca85baa124dfae803cdbd67ba8ab4943aaa24ebb13712fb73c",
+          "sha256": "444102887ca434ca85baa124dfae803cdbd67ba8ab4943aaa24ebb13712fb73c",
+          "size": 10500
+        },
+        {
+          "source_archive_member": "pygments-2.18.0/LICENSE",
+          "path": "notices/language-source/pygments/2.18.0/a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+          "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+          "size": 1331
+        }
+      ]
+    },
+    {
+      "name": "pyproject-hooks",
+      "version": "1.2.0",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/e7/82/28175b2414effca1cdac8dc99f76d660e7a4fb0ceefa4b4ab8f5f6742925/pyproject_hooks-1.2.0.tar.gz",
+      "sha256": "1e859bd5c40fae9448642dd871adf459e5e2084186e8d2c2a79a824c970da1f8",
+      "size": 19228,
+      "path": "language-sources/pyproject-hooks/1.2.0/pyproject_hooks-1.2.0.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "pyproject_hooks-1.2.0/LICENSE",
+          "path": "notices/language-source/pyproject-hooks/1.2.0/1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+          "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+          "size": 1081
+        },
+        {
+          "source_archive_member": "pyproject_hooks-1.2.0/tests/samples/pkg1/pkg1-0.5.dist-info/LICENSE",
+          "path": "notices/language-source/pyproject-hooks/1.2.0/1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+          "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+          "size": 1081
+        },
+        {
+          "source_archive_member": "pyproject_hooks-1.2.0/tests/samples/pkg2/pkg2-0.5.dist-info/LICENSE",
+          "path": "notices/language-source/pyproject-hooks/1.2.0/1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+          "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+          "size": 1081
+        },
+        {
+          "source_archive_member": "pyproject_hooks-1.2.0/tests/samples/pkg3/pkg3-0.5.dist-info/LICENSE",
+          "path": "notices/language-source/pyproject-hooks/1.2.0/1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+          "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+          "size": 1081
+        }
+      ]
+    },
+    {
+      "name": "requests",
+      "version": "2.32.3",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b550f1581eadbd9a20f896afe06353c2a2913/requests-2.32.3.tar.gz",
+      "sha256": "55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760",
+      "size": 131218,
+      "path": "language-sources/requests/2.32.3/requests-2.32.3.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "requests-2.32.3/LICENSE",
+          "path": "notices/language-source/requests/2.32.3/09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+          "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+          "size": 10142
+        },
+        {
+          "source_archive_member": "requests-2.32.3/NOTICE",
+          "path": "notices/language-source/requests/2.32.3/f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc",
+          "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc",
+          "size": 38
+        }
+      ]
+    },
+    {
+      "name": "resolvelib",
+      "version": "1.0.1",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/ce/10/f699366ce577423cbc3df3280063099054c23df70856465080798c6ebad6/resolvelib-1.0.1.tar.gz",
+      "sha256": "04ce76cbd63fded2078ce224785da6ecd42b9564b1390793f64ddecbe997b309",
+      "size": 21065,
+      "path": "language-sources/resolvelib/1.0.1/resolvelib-1.0.1.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "resolvelib-1.0.1/LICENSE",
+          "path": "notices/language-source/resolvelib/1.0.1/f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+          "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+          "size": 751
+        }
+      ]
+    },
+    {
+      "name": "rich",
+      "version": "13.9.4",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/ab/3a/0316b28d0761c6734d6bc14e770d85506c986c85ffb239e688eeaab2c2bc/rich-13.9.4.tar.gz",
+      "sha256": "439594978a49a09530cff7ebc4b5c7103ef57baf48d5ea3184f21d9a2befa098",
+      "size": 223149,
+      "path": "language-sources/rich/13.9.4/rich-13.9.4.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "rich-13.9.4/LICENSE",
+          "path": "notices/language-source/rich/13.9.4/deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+          "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+          "size": 1056
+        }
+      ]
+    },
+    {
+      "name": "setuptools",
+      "version": "70.3.0",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/65/d8/10a70e86f6c28ae59f101a9de6d77bf70f147180fbf40c3af0f64080adc3/setuptools-70.3.0.tar.gz",
+      "sha256": "f171bab1dfbc86b132997f26a119f6056a57950d058587841a0082e8830f9dc5",
+      "size": 2333112,
+      "path": "language-sources/setuptools/70.3.0/setuptools-70.3.0.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "setuptools-70.3.0/LICENSE",
+          "path": "notices/language-source/setuptools/70.3.0/86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+          "size": 1023
+        },
+        {
+          "source_archive_member": "setuptools-70.3.0/setuptools/_vendor/wheel-0.43.0.dist-info/LICENSE.txt",
+          "path": "notices/language-source/setuptools/70.3.0/30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+          "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+          "size": 1107
+        }
+      ]
+    },
+    {
+      "name": "tomli",
+      "version": "2.2.1",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/18/87/302344fed471e44a87289cf4967697d07e532f2421fdaf868a303cbae4ff/tomli-2.2.1.tar.gz",
+      "sha256": "cd45e1dc79c835ce60f7404ec8119f2eb06d38b1deba146f07ced3bbc44505ff",
+      "size": 17175,
+      "path": "language-sources/tomli/2.2.1/tomli-2.2.1.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "tomli-2.2.1/LICENSE",
+          "path": "notices/language-source/tomli/2.2.1/b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+          "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+          "size": 1072
+        }
+      ]
+    },
+    {
+      "name": "truststore",
+      "version": "0.10.0",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/01/a8/cdcf418e067b8ae539012a3f1a51f90b30b26f5e1952a8f60304396babbc/truststore-0.10.0.tar.gz",
+      "sha256": "5da347c665714fdfbd46f738c823fe9f0d8775e41ac5fb94f325749091187896",
+      "size": 24810,
+      "path": "language-sources/truststore/0.10.0/truststore-0.10.0.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "truststore-0.10.0/LICENSE",
+          "path": "notices/language-source/truststore/0.10.0/33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca",
+          "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca",
+          "size": 1086
+        }
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.12.2",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz",
+      "sha256": "1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8",
+      "size": 85321,
+      "path": "language-sources/typing_extensions/4.12.2/typing_extensions-4.12.2.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "typing_extensions-4.12.2/LICENSE",
+          "path": "notices/language-source/typing_extensions/4.12.2/3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+          "size": 13936
+        }
+      ]
+    },
+    {
+      "name": "urllib3",
+      "version": "1.26.20",
+      "complete": true,
+      "url": "https://files.pythonhosted.org/packages/e4/e8/6ff5e6bc22095cfc59b6ea711b687e2b7ed4bdb373f7eeec370a97d7392f/urllib3-1.26.20.tar.gz",
+      "sha256": "40c2dc0c681e47eb8f90e7e27bf6ff7df2e677421fd46756da1161c39ca70d32",
+      "size": 307380,
+      "path": "language-sources/urllib3/1.26.20/urllib3-1.26.20.tar.gz",
+      "hash_provenance": "official PyPI release JSON over HTTPS",
+      "source_notice_files": [
+        {
+          "source_archive_member": "urllib3-1.26.20/LICENSE.txt",
+          "path": "notices/language-source/urllib3/1.26.20/c37bf186e27cf9dbe9619e55edfe3cea7b30091ceb3da63c7dacbe0e6d77907b",
+          "sha256": "c37bf186e27cf9dbe9619e55edfe3cea7b30091ceb3da63c7dacbe0e6d77907b",
+          "size": 1115
+        }
+      ]
+    }
+  ],
+  "all_sources_complete": true,
+  "external_publication_performed": false,
+  "supplementary_build_source": {
+    "name": "pip-upstream-build-tools",
+    "version": "25.0.1",
+    "url": "https://codeload.github.com/pypa/pip/tar.gz/refs/tags/25.0.1",
+    "path": "language-sources/pip/25.0.1/pip-upstream-25.0.1.tar.gz",
+    "sha256": "334371888f0c679c04e819ddc234562feaea81331658a76842b62dc9dc83a832",
+    "size": 9224526,
+    "vendored_python_files_equal_to_exact_sdist": 261,
+    "vendoring_patch_files": [
+      "tools/vendoring/patches/certifi.patch",
+      "tools/vendoring/patches/pkg_resources.patch",
+      "tools/vendoring/patches/pygments.patch",
+      "tools/vendoring/patches/requests.patch",
+      "tools/vendoring/patches/urllib3-disable-brotli.patch",
+      "tools/vendoring/patches/urllib3.patch"
+    ],
+    "authentication": "official pypa/pip tagged archive over HTTPS; hash recorded"
+  }
+}
