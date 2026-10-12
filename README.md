@@ -1,6 +1,6 @@
 # Formal-CI EC oracle: corresponding sources and notices
 
-Source publication and anonymous download verification completed on 2026-10-12. All five Release assets matched their approved byte sizes and SHA-256 hashes. GHCR image publication is still pending.
+Source publication and anonymous download verification completed on 2026-10-12. All five Release assets matched their approved byte sizes and SHA-256 hashes. GHCR image publication and anonymous full-image download verification completed on 2026-10-12. The manifest, config and all six compressed layer blobs matched their SHA-256 identities.
 
 ## Exact runtime
 
@@ -8,8 +8,14 @@ Source publication and anonymous download verification completed on 2026-10-12. 
 - Target: `ghcr.io/hukusamizuno-hub/formal-ci-ec-oracle:amd64-h3-08b3cdb74e2a-71acd1210842484c94b7c03c2e3dfaaf`
 - Local manifest identity: `sha256:2d3fe158916e194764d50588fab202bc344336c365ad44bc6d2457b574263cee`
 - Config SHA-256: `485b8c3b1d52b194581ba1975d21130ea9a217b8bc430deca8f448ba2327917a`
-- Registry digest: pending independent registry readback.
+- Registry digest (independently verified): `sha256:2d3fe158916e194764d50588fab202bc344336c365ad44bc6d2457b574263cee`.
 - Generic runtime only; no EC application or oracle harness source, business data or owner authentication data.
+
+Public image: [GitHub Packages](https://github.com/users/hukusamizuno-hub/packages/container/package/formal-ci-ec-oracle). Retrieve the exact image with:
+
+```sh
+docker pull ghcr.io/hukusamizuno-hub/formal-ci-ec-oracle@sha256:2d3fe158916e194764d50588fab202bc344336c365ad44bc6d2457b574263cee
+```
 
 ## Download sources and notices
 
@@ -29,6 +35,6 @@ See [LICENSES.md](LICENSES.md) for GPL/LGPL corresponding-source, modification a
 
 All 22 original secret-pattern hits were resolved as 11 exact public-data locations: ten GnuTLS cryptographic self-test vectors and one libssh2 PEM format constant, scanned in both complete layer bytes and file content. Exact image/file hashes, official binary equality and source fingerprints are recorded in the notice archive. The original failed report was not changed and no broad scan exemption was added.
 
-The source-supply prerequisite is satisfied by the verified public assets and equivalent source access beside container retrieval directions in the release notes. Before making GHCR public, its package page must visibly link this exact release and notices. Package visibility and registry digest require independent readback before H4/W4 pinning.
+The source-supply prerequisite is satisfied by the verified public assets and equivalent source access beside container retrieval directions in the release notes. The public GHCR package page displays this README with the exact release and notice links. Package visibility, digest-addressed manifest bytes, linux/amd64 config identity and anonymous download hashes of all six layers were independently verified on 2026-10-12. H4/W4 pinning remains a separate local step subject to the existing workspace gates.
 
 Download provenance is official Debian/Python/PyPI/GitHub HTTPS plus SHA-256 checks; independent Debian Release/OpenPGP verification was not performed or claimed.
